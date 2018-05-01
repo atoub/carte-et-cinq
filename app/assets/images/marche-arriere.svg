@@ -1,0 +1,11 @@
+<svg id="marche_arriere" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>marche_arriere</title>
+  <polygon class="cls-1" points="312.65 374.57 313.86 64.1 288.86 64 288.86 64 288.86 64 263.86 63.9 262.65 374.38 212.85 374.18 287.14 504 362.44 374.76 312.65 374.57"/>
+</svg>

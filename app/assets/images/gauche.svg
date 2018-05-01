@@ -1,0 +1,21 @@
+<svg id="gauche" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>gauche</title>
+  <g>
+    <path class="cls-1" d="M287.67,503.67s6.64-121.47-33-202c-16.74-34-45.15-65.51-73.39-91.17"/>
+    <polygon class="cls-2" points="243.5 166.16 95.33 145.67 151.65 284.23 243.5 166.16"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg id="prononce_gauche" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>prononce_gauche</title>
+  <g>
+    <path class="cls-1" d="M287.67,503.67s1.65-71.63-34-154c-21.86-50.51-67.21-74.52-110.94-85.59"/>
+    <polygon class="cls-2" points="171.53 194.85 35.33 256.67 156.96 343.73 171.53 194.85"/>
+  </g>
+</svg>

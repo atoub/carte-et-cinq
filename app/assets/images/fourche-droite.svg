@@ -1,0 +1,11 @@
+<svg id="droite_fourche" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>droite_fourche</title>
+  <path class="cls-1" d="M374.45,184.94l18.35,46.84c-33.54,19.23-60,42-79.86,68.72l.42-106.88,49.8.19L288.86,64l-75.3,129.24,49.79.19-1.14,292.48Q262,495.21,262,505h50c0-.3,0-.6,0-.9h.14l.07-19.11c2.17-95.16,21.56-159.08,99-206.07L429,324.22l93.32-116.89Z"/>
+</svg>

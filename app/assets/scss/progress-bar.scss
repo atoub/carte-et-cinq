@@ -1,0 +1,32 @@
+.progress {
+    border-radius: 0;
+    color: $main-color;
+    border: 0px solid;
+    background: $infobar-accent-color;
+    width:100%; 
+    height: 20px;
+  }
+
+  .progress-bar {
+    width: 0%;
+    height: 20px;
+    background: $progress-bar-fill;
+  }
+
+  .progress-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    // color: $infobar-accent-color;
+
+    .divider {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background-color: $main-light-transparent;
+    }
+  }

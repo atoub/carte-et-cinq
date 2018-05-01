@@ -1,0 +1,29 @@
+{
+    "env": {
+        "AVA": {
+            "plugins": [
+                [
+                    "babel-plugin-webpack-loaders",
+                    {
+                        "config": "${AVACONFIG}",
+                        "verbose": false
+                    }
+                ]
+            ]
+        }
+    },
+    "presets": [
+        [
+            "es2015"
+        ],
+        "stage-2",
+        "react",
+        "react-boilerplate",
+        "flow"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "transform-flow-strip-types",
+        "transform-object-rest-spread"
+    ]
+}

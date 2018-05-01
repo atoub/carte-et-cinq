@@ -1,0 +1,15 @@
+<svg id="zoom_out" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <title>zoom_out</title>
+  <line class="cls-1" x1="488.67" y1="288.67" x2="87.33" y2="288.67"/>
+</svg>

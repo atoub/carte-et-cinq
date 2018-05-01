@@ -1,0 +1,238 @@
+/* -------- SCSS AFFICHAGE BAR INFO ITINENAIRE --------*/
+
+.infoBar {
+    z-index: 9;
+    border: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    .row {
+        margin: 0 !important; // Override BS
+        min-height: 9em;
+    }
+}
+
+.infoBar-bg{
+    background-color: $main-dark;
+    color: $main-light;
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    /* alignement vertical */
+}
+
+/* -------- CSS PARTIE ICON -------- */
+.infoBar-icon-droite {
+    background-image: url(../images/droite.svg);
+}
+
+.infoBar-icon-gauche {
+    background-image: url(../images/gauche.svg);
+}
+
+.infoBar-icon-u-turn-droite {
+    background-image: url(../images/u-turn-droite.svg);
+}
+
+.infoBar-icon-u-turn-gauche {
+    background-image: url(../images/u-turn-gauche.svg);
+}
+
+.infoBar-icon-leger-droite {
+    background-image: url(../images/leger-droite.svg);
+}
+
+.infoBar-icon-leger-gauche {
+    background-image: url(../images/leger-gauche.svg);
+}
+
+.infoBar-icon-prononce-droite {
+    background-image: url(../images/prononce-droite.svg);
+}
+
+.infoBar-icon-prononce-gauche {
+    background-image: url(../images/prononce-gauche.svg);
+}
+
+.infoBar-icon-fusion-droite {
+    background-image: url(../images/fusion-droite.svg);
+}
+
+.infoBar-icon-fusion-gauche {
+    background-image: url(../images/fusion-gauche.svg);
+}
+
+.infoBar-icon-fourche-droite {
+    background-image: url(../images/fourche-droite.svg);
+}
+
+.infoBar-icon-fourche-gauche {
+    background-image: url(../images/fourche-gauche.svg);
+}
+
+.infoBar-icon-rampe-droite {
+    background-image: url(../images/rampe-droite.svg);
+}
+
+.infoBar-icon-rampe-gauche {
+    background-image: url(../images/rampe-gauche.svg);
+}
+
+.infoBar-icon-quitter-rampe-droite {
+    background-image: url(../images/quitter-rampe-droite.svg);
+}
+
+.infoBar-icon-quitter-rampe-gauche {
+    background-image: url(../images/quitter-rampe-gauche.svg);
+}
+
+.infoBar-icon-fourche-avant {
+    background-image: url(../images/fourche-avant.svg);
+}
+
+.infoBar-icon-marche-arriere {
+    background-image: url(../images/marche-arriere.svg);
+}
+
+.infoBar-icon-avant {
+    background-image: url(../images/avant.svg);
+}
+
+.infoBar-icon-arrivee-directives {
+    background-image: url(../images/arrivee-directives.svg);
+    background-size: 70%;
+}
+
+.infoBar-icon {
+    border: 0px solid;
+    margin-top: 10em;
+}
+
+.infoBar-icon-container {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 7%;
+    width: 8%;
+    font-size: 1.25em;
+    padding: 0 !important;
+    background-size: 70%;
+}
+
+.infoBar-icon-km {
+    position: absolute;
+    bottom: .15em;
+    margin: auto;
+    width: 8%;
+    font-weight: 500;
+}
+
+/* -------- CSS PARTIE DIRECTION -------- */
+
+.infoBar-direction-center {
+    border-left: 1px solid $infobar-accent-color;
+    border-right: 1px solid $infobar-accent-color;
+    font-size: 24pt;
+    width: 70%;
+}
+
+/* -------- CSS PARTIE DESTINATION -------- */
+
+.infoBar-dest-center {
+    border-right: 1px solid $infobar-accent-color;
+    width: 12%;
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    /* alignement vertical */
+}
+
+.infoBar-dest {
+    font-size: 1.4em;
+    text-align: center;
+    margin: auto;
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.infoBar-dest-title {
+    border: 1px solid;
+    font-weight: 300;
+}
+
+.infoBar-menu-hamburger {
+    width: 10%;
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    /* alignement vertical */
+}
+
+#btnProchainesDirectives {
+    background-image: url(../images/ouvrir.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: fixed;
+    width: 2.5%;
+    top: 50vh;
+    left: 0px;
+    height: 10%;
+    vertical-align: middle;
+    background-color: $main-color-transparent;
+    z-index: 99;
+    border-radius: 0px 25px 25px 0px;
+
+    &.ouvert {
+        background-image: url(../images/fermer.svg);
+    }
+
+    &.hidden {
+        display: none;
+    }
+}
+
+.prochaines-directives {
+
+    &.infoBar-direction-center {
+        width: 80%;
+    }
+
+    & div {
+        font-size:0.6em;
+    }
+}
+
+.infobar-prochaine {
+    width: 100%;
+
+    .row .infoBar-icon-container {
+        width:20%;
+        background-position:50% 50%;
+    }
+}
+
+.autres-directives {
+    position: absolute;
+    height:calc(100vh - 11.5em);
+    width: 25%;
+    left: -25%;
+    overflow: scroll;
+    background-color: $main-dark-transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0 !important
+}
+
+

@@ -1,0 +1,149 @@
+/**
+* Interface des boutons de droites & deux fleches du coté gauche
+* @author Thibaud G
+*/
+.but {
+    position: fixed;
+
+    right: 2px;
+
+    border: none;
+
+    width: 10%;
+    height: 0%;
+
+    padding-bottom: 10%;
+
+    background-position-x: 50%;
+    background-position-y: 50%;
+
+    cursor: pointer;
+
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    &:focus {
+        outline: none;
+    }
+
+    &.cacherCoter {
+        right: -200px;
+    }
+
+    &:active {
+        filter: brightness(150%);
+    }
+}
+
+.but-spec{
+    background-size: 80% 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+
+.but-ZoomPlus {
+    background-image: url("../images/zoom_in.svg");
+}
+
+.but-ZoomMoins {
+    background-image: url("../images/zoom_out.svg");
+
+}
+
+.but-Cible {
+    background-image: url("../images/cible.svg");
+    visibility: visible;
+    opacity: 1;
+
+    &.btnTrackingActif {
+        background-image: url("../images/cible-barre-mon-camion.svg");
+    }
+
+    &.btnTrackingAutre {
+        background-image: url("../images/cible-barre-camion.svg");
+    }
+}
+
+.but-TurnByTurn {
+    background-image: url("../images/mode.svg");
+}
+
+.but-Couche {
+    background-image: url("../images/couches.svg");
+}
+
+.but-Zoom {
+    background-image: url("../images/zoom_100.svg");
+}
+/* Boutons des couches d'informations */
+
+.but-CoucheAppels {
+    background-image: url("../images/appel.svg");
+}
+
+.but-CoucheCamions {
+    background-image: url("../images/camion.svg");
+}
+
+.but-ZoomGlobal {
+    background-image: url("../images/cadrer.svg");
+}
+
+.but-CadrerRoute {
+    background-image: url("../images/cadrer_route.svg");
+}
+
+.but-CoucheInfosTraffic{
+    background-image: url("../images/trafic.svg");
+}
+
+.but-CoucheInfosBorne {
+    background-image: url("../images/borne.svg");
+}
+
+.but-CoucheSatellite {
+    background-image: url("../images/satellite.svg");
+}
+
+/* Fin boutons des couches d'informations*/
+
+.but-CollapseMonter {
+    position: inherit;
+    background-image: url("../images/collapse.svg");
+    left: 10%;
+    top: 20%;
+}
+
+.but-CollapseDessendre {
+    position: inherit;
+    background-image: url("../images/collapse.svg");
+    transform: rotate(180deg);
+    left: 10%;
+    top: 80%;
+}
+
+#but-hamburger {
+    border :none;
+    background-color: transparent;
+
+    &:focus {
+        outline: none;
+    }
+  }
+
+.but-Options {
+    background-image: url("../images/options.svg");
+    left: 0;
+    bottom: 0;
+}

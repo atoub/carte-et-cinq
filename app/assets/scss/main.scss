@@ -1,0 +1,221 @@
+// Importation des variables SCSS
+@import "variables";
+// Importation des fichier styles
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "infoBar";
+@import "progress-bar";
+@import "bouton-interface";
+@import "hamburger";
+
+#map {
+    display: inline-block;
+    height: calc(100% - 11.5em);
+    width: 100%;
+    position: fixed;
+    bottom: 1.5em;
+    transform-style: flat;
+    // évite de perdre la validité du z-index (transform de la map)
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: rotate 2s; /* Safari */
+    transition: transform 2s;
+}
+
+#map.map-tilt {
+    // Bloc de css pour incliner la vue en mode Turn-by-turn
+    -webkit-transform: perspective(1000px) rotate3d(40, 0, 0, 40deg) translate(0, 30%) scale(2,2)!important;
+    -moz-transform: perspective(1000px) rotate3d(40, 0, 0, 40deg) translate(0, 30%) scale(2,2)!important;
+    -o-transform: perspective(1000px) rotate3d(40, 0, 0, 40deg) translate(0, 30%) scale(2,2)!important;
+    transform: perspective(1000px) rotate3d(40, 0, 0, 40deg) translate(0, 30%) scale(2,2)!important;
+    -webkit-transition: rotate 2.5s; /* Safari */
+    transition: transform 2.5s;
+    height: 100%;
+}
+
+#hamburger-9.is-active:before {
+    border: 5px solid $main-light;
+}
+
+body {
+    color: $main-dark;
+    margin: 0;
+    overflow: hidden;
+}
+
+button{
+    transition: all 300ms;
+    outline:none;
+}
+
+.pos-r{
+    position: relative;
+}
+
+.basDroit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+    padding: 10px;
+}
+
+.basGauche {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    z-index: 9;
+}
+
+.hautDroit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9;
+}
+
+.zoom {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 9;
+}
+
+.grosIcon {
+    font-size: 10rem;
+}
+
+.iconZoom {
+    font-size: 5rem;
+    padding: 5px;
+}
+
+.upfront {
+    z-index: 9;
+}
+
+#collapseLayers {
+    right: 10vw;
+    background-color: $main-color-transparent;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+
+    button {
+        opacity: 0.35;
+        background-color: transparent;
+        background-size: 80% 80%;
+        background-position:center;
+        background-repeat: no-repeat;
+        float: right;
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+
+        flex: 1;
+        flex-basis: 0;
+        min-height: 0;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    &.hidden {
+        opacity: 0;
+        right: -70vw;
+    }
+}
+
+#sidebar {
+    z-index: 10;
+    width: 10%;
+    background-color: $main-color-transparent;
+    position: fixed;
+    bottom: 1.5em;
+    top: 10em;
+    right: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+
+    .flexed {
+        flex: 1;
+        flex-basis: 0;
+        min-height: 0;
+    }
+
+    &.cacherCoter {
+        width: 0;
+    }
+}
+
+#barInformation {
+    position: fixed;
+    bottom: 0px;
+    background-color: $main-color;
+    color: $main-light;
+    width: 100%;
+    height: 1.5em;
+    z-index: 9;
+    margin:0px;
+
+    .donneeCoordonees {
+        padding-left: 2em;
+    }
+
+    .donneeMessage {
+        align-content: right;
+        text-align: right;
+    }
+}
+
+.popup {
+    position: absolute;
+    border-width: 2px;
+    border-color: $main-color;
+    border-style: solid;
+    left: 25%;
+    top: 50%;
+    margin: auto 0;
+    width: 50%;
+    background-color: white;
+    padding: 1%;
+    z-index:99999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    // évite de perdre la validité du z-index (transform de la map)
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .textPopup {
+    font-size: 1.5vw;
+    margin: 0;
+  }
+
+  .popup_inner {
+    text-align: center;
+    font-size: 3em;
+  }
+
+
+

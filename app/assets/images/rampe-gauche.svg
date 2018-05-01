@@ -1,0 +1,12 @@
+<svg id="rampe-gauche" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>rampe-gauche</title>
+  <polygon class="cls-1" points="263.31 65 262.14 503.9 312.14 504.1 313.31 65 263.31 65"/>
+  <path class="cls-1" d="M494.35,482.73c-2.39-.35-59.16-9.11-115.94-49.93a265.12,265.12,0,0,1-79.62-90.37C275,298.21,263,245.92,263,187h50c0,91,31.83,160.07,94.59,205.2,47,33.81,93.59,41,94.06,41.07Z"/>
+</svg>

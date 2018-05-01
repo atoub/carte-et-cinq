@@ -1,0 +1,21 @@
+<svg id="leger_droite" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>leger_droite</title>
+  <g>
+    <path class="cls-1" d="M288.17,503.67s.33-112.67,9-202c3.59-37.12,15.61-81.71,28.43-121.16"/>
+    <polygon class="cls-2" points="389 227.01 363.25 79.67 248.51 175.62 389 227.01"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="422" viewBox="0 0 124 422">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>Asset 8</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_39" data-name="Layer 39">
+      <polyline class="cls-1" points="10 10 64 211 10 412"/>
+      <polyline class="cls-1" points="60 10 114 211 60 412"/>
+    </g>
+  </g>
+</svg>

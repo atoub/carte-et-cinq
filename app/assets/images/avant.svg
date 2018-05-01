@@ -1,0 +1,14 @@
+<svg id="avant" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>avant</title>
+  <g>
+    <polyline points="287.14 504 287.88 313.67 288.86 64"/>
+    <polygon class="cls-1" points="363.15 193.82 288.86 64 213.56 193.24 263.35 193.43 262.14 503.9 312.14 504.1 313.35 193.63 363.15 193.82"/>
+  </g>
+</svg>

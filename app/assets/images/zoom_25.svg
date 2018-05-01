@@ -1,0 +1,11 @@
+<svg id="zoom_25" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>zoom_25</title>
+  <path class="cls-1" d="M341,319.59l-5.15,5.15-21.93-21.93a85.7,85.7,0,1,0-11.12,11.12l21.93,21.93L319.59,341l72.66,72.66,21.42-21.42ZM177,248A71.07,71.07,0,1,1,248,319.1,71.07,71.07,0,0,1,177,248Z"/>
+</svg>

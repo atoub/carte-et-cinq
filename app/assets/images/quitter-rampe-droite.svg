@@ -1,0 +1,11 @@
+<svg id="quitter-rampe-droite" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>quitter-rampe-droite</title>
+  <path class="cls-1" d="M374.45,184.94l18.35,46.84c-33.54,19.23-60,42-79.86,68.72L313.34,73h-50l-1.13,412.91Q262,495.21,262,505h50c0-.3,0-.6,0-.9h.14l.07-19.11c2.17-95.16,21.56-159.08,99-206.07L429,324.22l93.32-116.89Z"/>
+</svg>

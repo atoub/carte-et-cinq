@@ -1,0 +1,21 @@
+<svg id="droite" xmlns="http://www.w3.org/2000/svg" width="8in" height="8in" viewBox="0 0 576 576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>droite</title>
+  <g>
+    <path class="cls-1" d="M288.17,503.67s-6.62-121.47,32.89-202c16.65-33.94,44.89-65.39,73-91"/>
+    <polygon class="cls-2" points="423.81 284.34 479.87 145.67 331.74 166.43 423.81 284.34"/>
+  </g>
+</svg>
